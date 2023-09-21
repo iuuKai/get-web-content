@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 	req.method === 'OPTIONS' ? res.status(204).end() : next()
 })
 
-app.post('/', async (req, res, next) => {
+app.use('/', async (req, res) => {
 	const { url } = Object.assign({}, req.query, req.body, req.files)
 
 	try {
