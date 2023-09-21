@@ -18,10 +18,7 @@ Could not find Chrome (ver. 117.0.5938.88). This can occur if either
 
 ```bash
 # npm
-npm install
-
-# node
-node index.js
+npm install && node index.js
 ```
 
 ```js
