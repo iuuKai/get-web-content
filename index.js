@@ -7,6 +7,7 @@
  * @Description:
  * @QQ/微信: 790331286
  */
+const path = require('path')
 const express = require('express')
 const puppeteer = require('puppeteer')
 
@@ -16,6 +17,7 @@ const host = process.env.HOST || ''
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
+app.use(express.static('./'))
 
 app.use((req, res, next) => {
 	res.set({
