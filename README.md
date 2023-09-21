@@ -2,6 +2,9 @@
 
 express + puppeteer 根据网址获取网站 title、icon 等数据
 
+- ✖️ [Render](https://dashboard.render.com/)
+- ✖️ [Vercel](https://vercel.com/)
+
 > 注意：
 > 本地测试可以，但部署到 Render、Vercel 后报错 Could not find Chrome
 ```txt
